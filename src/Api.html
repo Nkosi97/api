@@ -1,0 +1,19 @@
+<html>
+<title>Api Project</title>
+<script>
+function api(url){
+fetch()
+.then(function(response){
+    return response.json();
+})
+.catch(function(erro){
+    console.log("Error :" + erro);
+})
+}
+
+apiCheck = new api("https://api.github.com/repos/Nkosi97")
+
+</script>
+</html>
+
+<!-- curl --include https://api.github.com/users/Nkosi97/repos -->
